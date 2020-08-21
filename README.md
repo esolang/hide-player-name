@@ -1,34 +1,12 @@
-# Example Mod
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](https://bit.ly/cc-by-nc-sa-40)
 
-For `mod_id`:
-- Rename `mod-template/src/main/resources/assets/*mod_id*`
-- Rename `mod-template/src/main/resources/*mod_id*.mixins.json`
+# Hide player name
 
-In `gradle.properties`:
-- Change `archives_base_name`
-- Change `mod_version`
-- Check `minecraft_version`
-- Check `yarn_mappings`
-- Check `loader_version`
-- Check `fabric_version`
+Hide player name (or HPN) is a client-side mod that grants ability for the player to hide the other player or entity names.
 
-In `src/main/resources/mod_id.mixins.json`:
-- Change `mod_id` in `package`
-- Check `client`
+# Usage
 
-In `src/main/resources/fabric.mod.json`:
-- Change `mod_id`
-- Change `name`
-- Change `description`
-- Change `sources` in `contact`
-- Change `mod_id` in `icon`
-- Change `mod_id` in `main` in `entrypoints`
-- Change `mod_id` in `mixins`
-- Check `depends`
+To hide player names use key `P` (toggle) \
+To hide all entity names use key `O` (toggle)
 
-Example files:
-- `src/main/java/net/avcd/mod_id/ExampleMod.java` \
-    `ExampleMod` in `fabric.mod.json` in `entrypoints` in `main`
-
-- `src/main/java/net/avcd/mod_id/mixin/ExampleMixin.java` \
-    `ExampleMixin` in `mod_id.mixins.json` in `client`
+Both keys can be changed in settings in controls.

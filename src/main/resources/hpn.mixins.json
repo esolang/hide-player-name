@@ -1,12 +1,13 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "net.avcd.*mod_id*.mixin",
+    "package": "net.avcd.hpn.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
     ],
     "client": [
-        "*ExampleMixin*"
+        "EntityRendererMixin",
+        "PlayerEntityRenderMixin"
     ],
     "injectors": {
         "defaultRequire": 1

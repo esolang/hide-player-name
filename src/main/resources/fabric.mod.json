@@ -1,29 +1,29 @@
 {
     "schemaVersion": 1,
-    "id": "mod_id",
+    "id": "hpn",
     "version": "${version}",
 
-    "name": "Example Mod",
-    "description": "Description",
+    "name": "Hide Player Name",
+    "description": "Hide player and other entity names with single key press",
     "authors": [
         "AVCD development team."
     ],
     "contact": {
         "homepage": "https://github.com/avcd-fabric-mods",
-        "sources": "https://github.com/avcd-fabric-mods/*repository*"
+        "sources": "https://github.com/avcd-fabric-mods/hide-player-name"
     },
 
-    "license": "CC0-1.0",
-    "icon": "assets/*mod_id*/icon.png",
+    "license": "CC BY-NC-SA 4.0",
+    "icon": "assets/hpn/icon.png",
 
     "environment": "*",
     "entrypoints": {
         "main": [
-            "net.avcd.*mod_id*.*ExampleMod*"
+            "net.avcd.hpn.HidePlayerName"
         ]
     },
     "mixins": [
-        "*mod_id*.mixins.json"
+        "hpn.mixins.json"
     ],
 
     "depends": {
