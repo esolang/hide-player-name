@@ -4,6 +4,8 @@
 
 Hide player name (or HPN) is a client-side mod that grants ability for the player to hide the other player or entity names.
 
+Updated for Minecraft 1.18
+
 # Usage
 
 To hide player names use key `P` (toggle) \
